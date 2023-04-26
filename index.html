@@ -1,3 +1,56 @@
 <!DOCTYPE html>
-  <h1>skid</h1>
+<head>
+	<script>
+		//window.onload = function() {window.location.reload()};
+	</script>
+	
+	<style>
+		body {
+			/* Variables */
+			--bl: #3D6AF2;
+			
+			/* End of variables */
+			
+			
+			font-family: sans-serif;
+			font-weight: bold;
+			letter-spacing: 0.5px;
+			color: whitesmoke;
+			margin: 6px;
+			background-color: black;
+		}
+		
+		#header {
+			font-size: 32px;
+		}
+		
+		#headerButton {
+			border-radius: 6px;
+			border: 0;
+			transition:0.2s;
+			letter-spacing:2px;
+			padding: 4px 6px;
+			background: transparent;
+			color:whitesmoke;
+			display:block;
+		}
+		
+		#headerButton:hover {
+			/*box-shadow:0px 0px 2px 2px var(--bl);*/
+			transition:0.2s;
+			font-weight:bold;
+		}
+	</style>
+</head>
+
+<body>
+	<div id = "header">
+		<font>Kings</font><font style = "color:var(--bl);">.fun</font>
+	</div>
+
+	<div style = "display:block;">
+		<button id = "headerButton">Login</button>
+		<button id = "headerButton">Profile</button>
+	</div>
+</body>
 </html>
